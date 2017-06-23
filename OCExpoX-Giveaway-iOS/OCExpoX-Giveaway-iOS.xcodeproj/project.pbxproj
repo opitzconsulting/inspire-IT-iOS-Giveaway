@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		563F70FA1EDC37F100AF69A4 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F70F91EDC37F100AF69A4 /* SettingsVC.swift */; };
+		563F70FC1EDC37FC00AF69A4 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F70FB1EDC37FC00AF69A4 /* HelpVC.swift */; };
+		563F70FE1EDC380900AF69A4 /* DatenschutzVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F70FD1EDC380900AF69A4 /* DatenschutzVC.swift */; };
+		563F71001EDC381300AF69A4 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F70FF1EDC381300AF69A4 /* AboutVC.swift */; };
+		5644FD0F1EE6A5060075C81B /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5644FD0E1EE6A5060075C81B /* UserSettingsViewController.swift */; };
+		5644FD111EEABA1C0075C81B /* BackgroundTaskExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5644FD101EEABA1C0075C81B /* BackgroundTaskExtension.swift */; };
+		569C76091EDC1045000AE004 /* PopOverExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C76081EDC1045000AE004 /* PopOverExtension.swift */; };
+		569C760B1EDC108C000AE004 /* LocationManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C760A1EDC108C000AE004 /* LocationManagerExtension.swift */; };
+		56A8DE351EC9A049002A85FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A8DE341EC9A049002A85FA /* AppDelegate.swift */; };
+		56A8DE371EC9A049002A85FA /* ZaehlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A8DE361EC9A049002A85FA /* ZaehlerViewController.swift */; };
+		56A8DE3A1EC9A049002A85FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A8DE381EC9A049002A85FA /* Main.storyboard */; };
+		56A8DE3C1EC9A049002A85FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A8DE3B1EC9A049002A85FA /* Assets.xcassets */; };
+		56A8DE3F1EC9A049002A85FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A8DE3D1EC9A049002A85FA /* LaunchScreen.storyboard */; };
+		7AA3D4899F3848EF5D332902 /* Pods_OCExpoX_Giveaway_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74EC9D628AB63F12D200CD8D /* Pods_OCExpoX_Giveaway_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13BDF48DE2A84AFB7129EF73 /* Pods-OCExpoX-Giveaway-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCExpoX-Giveaway-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCExpoX-Giveaway-iOS/Pods-OCExpoX-Giveaway-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		563F70F91EDC37F100AF69A4 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		563F70FB1EDC37FC00AF69A4 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		563F70FD1EDC380900AF69A4 /* DatenschutzVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatenschutzVC.swift; sourceTree = "<group>"; };
+		563F70FF1EDC381300AF69A4 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		5644FD0E1EE6A5060075C81B /* UserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
+		5644FD101EEABA1C0075C81B /* BackgroundTaskExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTaskExtension.swift; sourceTree = "<group>"; };
+		569C76081EDC1045000AE004 /* PopOverExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverExtension.swift; sourceTree = "<group>"; };
+		569C760A1EDC108C000AE004 /* LocationManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerExtension.swift; sourceTree = "<group>"; };
+		56A8DE311EC9A049002A85FA /* OCExpoX-Giveaway-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCExpoX-Giveaway-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A8DE341EC9A049002A85FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56A8DE361EC9A049002A85FA /* ZaehlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaehlerViewController.swift; sourceTree = "<group>"; };
+		56A8DE391EC9A049002A85FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56A8DE3B1EC9A049002A85FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56A8DE3E1EC9A049002A85FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56A8DE401EC9A049002A85FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74EC9D628AB63F12D200CD8D /* Pods_OCExpoX_Giveaway_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCExpoX_Giveaway_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47CDC0F641686D4F7330228 /* Pods-OCExpoX-Giveaway-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCExpoX-Giveaway-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCExpoX-Giveaway-iOS/Pods-OCExpoX-Giveaway-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56A8DE2E1EC9A049002A85FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3D4899F3848EF5D332902 /* Pods_OCExpoX_Giveaway_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56A8DE281EC9A049002A85FA = {
+			isa = PBXGroup;
+			children = (
+				56A8DE331EC9A049002A85FA /* OCExpoX-Giveaway-iOS */,
+				56A8DE321EC9A049002A85FA /* Products */,
+				67410CDE3761AFD2AB1E064D /* Pods */,
+				748033C5A496FDFC1A171352 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56A8DE321EC9A049002A85FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56A8DE311EC9A049002A85FA /* OCExpoX-Giveaway-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56A8DE331EC9A049002A85FA /* OCExpoX-Giveaway-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				56F779C91EED1ED70031AB1D /* Supporting Files */,
+				56F779CA1EED1EFD0031AB1D /* mainView */,
+				56F779CB1EED1F0D0031AB1D /* Settings */,
+			);
+			path = "OCExpoX-Giveaway-iOS";
+			sourceTree = "<group>";
+		};
+		56F779C91EED1ED70031AB1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56A8DE341EC9A049002A85FA /* AppDelegate.swift */,
+				56A8DE381EC9A049002A85FA /* Main.storyboard */,
+				56A8DE3B1EC9A049002A85FA /* Assets.xcassets */,
+				56A8DE3D1EC9A049002A85FA /* LaunchScreen.storyboard */,
+				56A8DE401EC9A049002A85FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56F779CA1EED1EFD0031AB1D /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				56A8DE361EC9A049002A85FA /* ZaehlerViewController.swift */,
+				5644FD101EEABA1C0075C81B /* BackgroundTaskExtension.swift */,
+				569C76081EDC1045000AE004 /* PopOverExtension.swift */,
+				569C760A1EDC108C000AE004 /* LocationManagerExtension.swift */,
+			);
+			name = mainView;
+			sourceTree = "<group>";
+		};
+		56F779CB1EED1F0D0031AB1D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5644FD0E1EE6A5060075C81B /* UserSettingsViewController.swift */,
+				563F70F91EDC37F100AF69A4 /* SettingsVC.swift */,
+				563F70FB1EDC37FC00AF69A4 /* HelpVC.swift */,
+				563F70FD1EDC380900AF69A4 /* DatenschutzVC.swift */,
+				563F70FF1EDC381300AF69A4 /* AboutVC.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		67410CDE3761AFD2AB1E064D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A47CDC0F641686D4F7330228 /* Pods-OCExpoX-Giveaway-iOS.debug.xcconfig */,
+				13BDF48DE2A84AFB7129EF73 /* Pods-OCExpoX-Giveaway-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		748033C5A496FDFC1A171352 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74EC9D628AB63F12D200CD8D /* Pods_OCExpoX_Giveaway_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56A8DE301EC9A049002A85FA /* OCExpoX-Giveaway-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A8DE431EC9A049002A85FA /* Build configuration list for PBXNativeTarget "OCExpoX-Giveaway-iOS" */;
+			buildPhases = (
+				075A2FF695FF0EB3840C41E8 /* [CP] Check Pods Manifest.lock */,
+				56A8DE2D1EC9A049002A85FA /* Sources */,
+				56A8DE2E1EC9A049002A85FA /* Frameworks */,
+				56A8DE2F1EC9A049002A85FA /* Resources */,
+				505A204219FD0487EE733180 /* [CP] Embed Pods Frameworks */,
+				F6801C8B26AF24C901C5CE80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCExpoX-Giveaway-iOS";
+			productName = "OCExpoX-Giveaway-iOS";
+			productReference = 56A8DE311EC9A049002A85FA /* OCExpoX-Giveaway-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56A8DE291EC9A049002A85FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "OPITZ CONSULTING GmbH";
+				TargetAttributes = {
+					56A8DE301EC9A049002A85FA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2B7CWFEPUV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 56A8DE2C1EC9A049002A85FA /* Build configuration list for PBXProject "OCExpoX-Giveaway-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56A8DE281EC9A049002A85FA;
+			productRefGroup = 56A8DE321EC9A049002A85FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56A8DE301EC9A049002A85FA /* OCExpoX-Giveaway-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56A8DE2F1EC9A049002A85FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A8DE3F1EC9A049002A85FA /* LaunchScreen.storyboard in Resources */,
+				56A8DE3C1EC9A049002A85FA /* Assets.xcassets in Resources */,
+				56A8DE3A1EC9A049002A85FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		075A2FF695FF0EB3840C41E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		505A204219FD0487EE733180 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCExpoX-Giveaway-iOS/Pods-OCExpoX-Giveaway-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6801C8B26AF24C901C5CE80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCExpoX-Giveaway-iOS/Pods-OCExpoX-Giveaway-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56A8DE2D1EC9A049002A85FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A8DE371EC9A049002A85FA /* ZaehlerViewController.swift in Sources */,
+				569C76091EDC1045000AE004 /* PopOverExtension.swift in Sources */,
+				569C760B1EDC108C000AE004 /* LocationManagerExtension.swift in Sources */,
+				563F70FC1EDC37FC00AF69A4 /* HelpVC.swift in Sources */,
+				5644FD0F1EE6A5060075C81B /* UserSettingsViewController.swift in Sources */,
+				563F71001EDC381300AF69A4 /* AboutVC.swift in Sources */,
+				5644FD111EEABA1C0075C81B /* BackgroundTaskExtension.swift in Sources */,
+				56A8DE351EC9A049002A85FA /* AppDelegate.swift in Sources */,
+				563F70FE1EDC380900AF69A4 /* DatenschutzVC.swift in Sources */,
+				563F70FA1EDC37F100AF69A4 /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56A8DE381EC9A049002A85FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56A8DE391EC9A049002A85FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56A8DE3D1EC9A049002A85FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56A8DE3E1EC9A049002A85FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56A8DE411EC9A049002A85FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56A8DE421EC9A049002A85FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56A8DE441EC9A049002A85FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47CDC0F641686D4F7330228 /* Pods-OCExpoX-Giveaway-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2B7CWFEPUV;
+				INFOPLIST_FILE = "OCExpoX-Giveaway-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OC.OCExpoX-Giveaway-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		56A8DE451EC9A049002A85FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BDF48DE2A84AFB7129EF73 /* Pods-OCExpoX-Giveaway-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2B7CWFEPUV;
+				INFOPLIST_FILE = "OCExpoX-Giveaway-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OC.OCExpoX-Giveaway-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56A8DE2C1EC9A049002A85FA /* Build configuration list for PBXProject "OCExpoX-Giveaway-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A8DE411EC9A049002A85FA /* Debug */,
+				56A8DE421EC9A049002A85FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A8DE431EC9A049002A85FA /* Build configuration list for PBXNativeTarget "OCExpoX-Giveaway-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A8DE441EC9A049002A85FA /* Debug */,
+				56A8DE451EC9A049002A85FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56A8DE291EC9A049002A85FA /* Project object */;
+}
