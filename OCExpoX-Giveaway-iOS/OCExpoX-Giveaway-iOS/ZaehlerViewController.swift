@@ -88,5 +88,38 @@ class ZaehlerViewController: UIViewController, UITableViewDelegate {
         alert.addAction(okButton)
         return alert
     }
+    
+    //Backgroundtask functionality
+    
+    func registerBackgroundTask() {
+        backgroundTask = UIApplication.shared.beginBackgroundTask { [weak self] in
+            self?.endBackgroundTask()
+        }
+        assert(backgroundTask != UIBackgroundTaskInvalid)
+    }
+    
+    func endBackgroundTask() {
+        defaults.set(zaehler, forKey: AppDelegate.self.defaultZaehlerStand)
+        defaults.synchronize()
+        UIApplication.shared.endBackgroundTask(backgroundTask)
+        backgroundTask = UIBackgroundTaskInvalid
+    }
+    
+    func observeState() {
+        switch UIApplication.shared.applicationState {
+        case .active:
+            inbackground = false
+        case .background:
+            inbackground = true
+        default: break
+        }
+    }
+    
+    func reinstateBackgroundTask() {
+        if !inbackground  && (backgroundTask == UIBackgroundTaskInvalid) {
+            registerBackgroundTask()
+        }
+    }
+
 }
 

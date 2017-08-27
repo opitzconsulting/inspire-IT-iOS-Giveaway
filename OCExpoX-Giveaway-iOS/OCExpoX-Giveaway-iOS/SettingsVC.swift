@@ -14,12 +14,12 @@ class SettingsVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scanSettingSwitch.setOn(UserDefaults.standard.bool(forKey: "backgroundScan"), animated: false)
+        scanSettingSwitch.setOn(UserDefaults.standard.bool(forKey: AppDelegate.defaultsBackgroundScanKey), animated: false)
     }
 
     @IBAction func toogleBackgroundScanning(_ sender: UISwitch) {
-        if(scanSettingSwitch.isOn != UserDefaults.standard.bool(forKey: "backgroundScan")){
-            UserDefaults.standard.set(scanSettingSwitch.isOn, forKey: "backgroundScan")
+        if(scanSettingSwitch.isOn != UserDefaults.standard.bool(forKey: AppDelegate.defaultsBackgroundScanKey)){
+            UserDefaults.standard.set(scanSettingSwitch.isOn, forKey: AppDelegate.defaultsBackgroundScanKey)
         }
     }
     

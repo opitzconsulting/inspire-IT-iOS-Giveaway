@@ -12,9 +12,8 @@
 		563F70FE1EDC380900AF69A4 /* DatenschutzVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F70FD1EDC380900AF69A4 /* DatenschutzVC.swift */; };
 		563F71001EDC381300AF69A4 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F70FF1EDC381300AF69A4 /* AboutVC.swift */; };
 		5644FD0F1EE6A5060075C81B /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5644FD0E1EE6A5060075C81B /* UserSettingsViewController.swift */; };
-		5644FD111EEABA1C0075C81B /* BackgroundTaskExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5644FD101EEABA1C0075C81B /* BackgroundTaskExtension.swift */; };
-		569C76091EDC1045000AE004 /* PopOverExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C76081EDC1045000AE004 /* PopOverExtension.swift */; };
-		569C760B1EDC108C000AE004 /* LocationManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C760A1EDC108C000AE004 /* LocationManagerExtension.swift */; };
+		569C76091EDC1045000AE004 /* ZaehlerViewControllerExtension_PopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C76081EDC1045000AE004 /* ZaehlerViewControllerExtension_PopOver.swift */; };
+		569C760B1EDC108C000AE004 /* ZaehlerViewControllerExtension_LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C760A1EDC108C000AE004 /* ZaehlerViewControllerExtension_LocationManager.swift */; };
 		56A8DE351EC9A049002A85FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A8DE341EC9A049002A85FA /* AppDelegate.swift */; };
 		56A8DE371EC9A049002A85FA /* ZaehlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A8DE361EC9A049002A85FA /* ZaehlerViewController.swift */; };
 		56A8DE3A1EC9A049002A85FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A8DE381EC9A049002A85FA /* Main.storyboard */; };
@@ -30,9 +29,8 @@
 		563F70FD1EDC380900AF69A4 /* DatenschutzVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatenschutzVC.swift; sourceTree = "<group>"; };
 		563F70FF1EDC381300AF69A4 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		5644FD0E1EE6A5060075C81B /* UserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
-		5644FD101EEABA1C0075C81B /* BackgroundTaskExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTaskExtension.swift; sourceTree = "<group>"; };
-		569C76081EDC1045000AE004 /* PopOverExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverExtension.swift; sourceTree = "<group>"; };
-		569C760A1EDC108C000AE004 /* LocationManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerExtension.swift; sourceTree = "<group>"; };
+		569C76081EDC1045000AE004 /* ZaehlerViewControllerExtension_PopOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZaehlerViewControllerExtension_PopOver.swift; sourceTree = "<group>"; };
+		569C760A1EDC108C000AE004 /* ZaehlerViewControllerExtension_LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZaehlerViewControllerExtension_LocationManager.swift; sourceTree = "<group>"; };
 		56A8DE311EC9A049002A85FA /* OCExpoX-Giveaway-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCExpoX-Giveaway-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A8DE341EC9A049002A85FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56A8DE361EC9A049002A85FA /* ZaehlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaehlerViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				56A8DE361EC9A049002A85FA /* ZaehlerViewController.swift */,
-				5644FD101EEABA1C0075C81B /* BackgroundTaskExtension.swift */,
-				569C76081EDC1045000AE004 /* PopOverExtension.swift */,
-				569C760A1EDC108C000AE004 /* LocationManagerExtension.swift */,
+				569C76081EDC1045000AE004 /* ZaehlerViewControllerExtension_PopOver.swift */,
+				569C760A1EDC108C000AE004 /* ZaehlerViewControllerExtension_LocationManager.swift */,
 			);
 			name = mainView;
 			sourceTree = "<group>";
@@ -261,12 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				56A8DE371EC9A049002A85FA /* ZaehlerViewController.swift in Sources */,
-				569C76091EDC1045000AE004 /* PopOverExtension.swift in Sources */,
-				569C760B1EDC108C000AE004 /* LocationManagerExtension.swift in Sources */,
+				569C76091EDC1045000AE004 /* ZaehlerViewControllerExtension_PopOver.swift in Sources */,
+				569C760B1EDC108C000AE004 /* ZaehlerViewControllerExtension_LocationManager.swift in Sources */,
 				563F70FC1EDC37FC00AF69A4 /* HelpVC.swift in Sources */,
 				5644FD0F1EE6A5060075C81B /* UserSettingsViewController.swift in Sources */,
 				563F71001EDC381300AF69A4 /* AboutVC.swift in Sources */,
-				5644FD111EEABA1C0075C81B /* BackgroundTaskExtension.swift in Sources */,
 				56A8DE351EC9A049002A85FA /* AppDelegate.swift in Sources */,
 				563F70FE1EDC380900AF69A4 /* DatenschutzVC.swift in Sources */,
 				563F70FA1EDC37F100AF69A4 /* SettingsVC.swift in Sources */,
